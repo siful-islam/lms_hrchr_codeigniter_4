@@ -59,3 +59,5 @@ class JsonCast extends BaseCast
         return $value;
     }
 }
+
+

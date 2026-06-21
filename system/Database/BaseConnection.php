@@ -2078,3 +2078,5 @@ abstract class BaseConnection implements ConnectionInterface
         return property_exists($this, $key);
     }
 }
+
+

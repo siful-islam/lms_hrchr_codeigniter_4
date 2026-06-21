@@ -1075,3 +1075,5 @@ class ContentSecurityPolicy
         $this->{$this->directives[$directive]} = [];
     }
 }
+
+

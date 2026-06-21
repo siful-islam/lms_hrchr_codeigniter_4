@@ -780,3 +780,5 @@ abstract class BaseHandler implements ImageHandlerInterface
         return $this;
     }
 }
+
+

@@ -87,3 +87,5 @@ interface FabricatorModel
      */
     // public function fake(Generator &$faker);
 }
+
+

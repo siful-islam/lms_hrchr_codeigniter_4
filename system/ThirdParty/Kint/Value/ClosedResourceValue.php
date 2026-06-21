@@ -41,3 +41,5 @@ class ClosedResourceValue extends AbstractValue
         return 'closed resource';
     }
 }
+
+

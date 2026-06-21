@@ -94,3 +94,5 @@ class BlacklistPlugin extends AbstractPlugin implements PluginBeginInterface
         return $object;
     }
 }
+
+

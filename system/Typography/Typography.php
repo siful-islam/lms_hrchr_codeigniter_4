@@ -342,3 +342,5 @@ class Typography
         return $newstr;
     }
 }
+
+

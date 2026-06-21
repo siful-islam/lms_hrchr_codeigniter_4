@@ -754,3 +754,5 @@ if (! function_exists('excerpt')) {
         return str_replace('  ', ' ', $ellPre . $firstPartOutput . $phrase . $endPartOutput . $ellipsis);
     }
 }
+
+

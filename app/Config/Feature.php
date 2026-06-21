@@ -35,3 +35,5 @@ class Feature extends BaseConfig
      */
     public bool $strictLocaleNegotiation = false;
 }
+
+

@@ -41,3 +41,5 @@ interface PluginInterface
      */
     public function getTriggers(): int;
 }
+
+

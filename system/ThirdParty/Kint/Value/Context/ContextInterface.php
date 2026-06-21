@@ -51,3 +51,5 @@ interface ContextInterface
     /** @psalm-return ?non-empty-string */
     public function getOperator(): ?string;
 }
+
+

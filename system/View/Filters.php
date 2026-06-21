@@ -245,3 +245,5 @@ class Filters
         return ucwords(strtolower($value));
     }
 }
+
+

@@ -66,3 +66,5 @@ class ArrayObjectPlugin extends AbstractPlugin implements PluginBeginInterface
         return $v;
     }
 }
+
+

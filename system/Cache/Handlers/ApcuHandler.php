@@ -128,3 +128,5 @@ class ApcuHandler extends BaseHandler
         return extension_loaded('apcu') && apcu_enabled();
     }
 }
+
+

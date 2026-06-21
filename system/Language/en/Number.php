@@ -26,3 +26,5 @@ return [
     'trillion'    => ' trillion',
     'quadrillion' => ' quadrillion',
 ];
+
+

@@ -299,3 +299,5 @@ trait MessageTrait
         return $this;
     }
 }
+
+

@@ -82,3 +82,5 @@ class SecurityException extends FrameworkException implements HTTPExceptionInter
         return new static(lang('Security.invalidSameSite', [$samesite]));
     }
 }
+
+

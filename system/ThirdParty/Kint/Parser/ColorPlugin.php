@@ -76,3 +76,5 @@ class ColorPlugin extends AbstractPlugin implements PluginCompleteInterface
         return $out;
     }
 }
+
+

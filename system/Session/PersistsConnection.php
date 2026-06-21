@@ -83,3 +83,5 @@ trait PersistsConnection
         self::$connectionPool = [];
     }
 }
+
+

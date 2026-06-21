@@ -600,3 +600,5 @@ class Exceptions
         return '<pre><code>' . $out . '</code></pre>';
     }
 }
+
+

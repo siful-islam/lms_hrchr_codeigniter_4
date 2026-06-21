@@ -37,3 +37,5 @@ interface PluginBeginInterface extends PluginInterface
      */
     public function parseBegin(&$var, ContextInterface $c): ?AbstractValue;
 }
+
+

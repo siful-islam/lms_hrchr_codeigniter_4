@@ -447,3 +447,5 @@ class SiteURI extends URI
         return (string) $uri;
     }
 }
+
+

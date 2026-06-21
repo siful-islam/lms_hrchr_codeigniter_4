@@ -84,3 +84,5 @@ class EntityGenerator extends BaseCommand
         $this->generateClass($params);
     }
 }
+
+

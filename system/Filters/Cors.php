@@ -121,3 +121,5 @@ class Cors implements FilterInterface
         return $this->cors->addResponseHeaders($request, $response);
     }
 }
+
+

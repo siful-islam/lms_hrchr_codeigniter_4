@@ -186,3 +186,5 @@ class Database
         throw new CriticalError($message);
     }
 }
+
+

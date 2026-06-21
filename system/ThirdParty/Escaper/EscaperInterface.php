@@ -56,3 +56,5 @@ interface EscaperInterface
      */
     public function escapeCss(string $string);
 }
+
+

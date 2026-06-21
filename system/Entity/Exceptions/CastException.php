@@ -123,3 +123,5 @@ class CastException extends FrameworkException implements HasExitCodeInterface
         return new static(lang('Cast.enumInvalidType', [$actualClass, $expectedClass]));
     }
 }
+
+

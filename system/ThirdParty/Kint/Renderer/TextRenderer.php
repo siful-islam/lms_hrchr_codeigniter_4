@@ -398,3 +398,5 @@ class TextRenderer extends AbstractRenderer
         return $this->plugin_objs[$plugin];
     }
 }
+
+

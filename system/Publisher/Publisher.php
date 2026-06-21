@@ -521,3 +521,5 @@ class Publisher extends FileCollection
         copy($from, $to);
     }
 }
+
+

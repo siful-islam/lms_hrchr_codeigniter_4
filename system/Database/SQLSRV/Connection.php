@@ -616,3 +616,5 @@ class Connection extends BaseConnection
         return parent::isWriteType($sql);
     }
 }
+
+

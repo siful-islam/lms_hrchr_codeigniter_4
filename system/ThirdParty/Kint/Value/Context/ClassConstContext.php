@@ -48,3 +48,5 @@ class ClassConstContext extends ClassDeclaredContext
         return $final.$this->getAccess().' const';
     }
 }
+
+

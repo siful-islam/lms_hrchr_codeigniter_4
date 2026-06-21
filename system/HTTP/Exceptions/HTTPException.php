@@ -242,3 +242,5 @@ class HTTPException extends FrameworkException implements ExceptionInterface
         return new static(lang('HTTP.unsupportedJSONFormat'));
     }
 }
+
+

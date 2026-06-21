@@ -42,3 +42,5 @@ class Generators extends BaseConfig
         'session:migration' => 'CodeIgniter\Commands\Generators\Views\migration.tpl.php',
     ];
 }
+
+

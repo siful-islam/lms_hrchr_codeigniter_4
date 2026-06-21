@@ -161,3 +161,5 @@ if (! is_file(COMPOSER_PATH)) {
 Services::autoloader()->initializeKint(CI_DEBUG);
 
 exit(1);
+
+

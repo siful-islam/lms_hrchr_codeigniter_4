@@ -77,3 +77,5 @@ class StreamValue extends ResourceValue
         return $this->stream_meta;
     }
 }
+
+

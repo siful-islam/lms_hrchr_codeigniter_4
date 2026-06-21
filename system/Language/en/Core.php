@@ -21,3 +21,5 @@ return [
     'missingExtension'             => 'The framework needs the following extension(s) installed and loaded: "{0}".',
     'noHandlers'                   => '"{0}" must provide at least one Handler.',
 ];
+
+

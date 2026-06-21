@@ -359,3 +359,5 @@ class UploadedFile extends File implements UploadedFileInterface
         return $folderName . $this->name;
     }
 }
+
+

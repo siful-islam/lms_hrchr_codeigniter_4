@@ -126,3 +126,5 @@ class MigrationGenerator extends BaseCommand
         return gmdate(config(Migrations::class)->timestampFormat) . basename($filename);
     }
 }
+
+

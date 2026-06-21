@@ -550,3 +550,5 @@ class ImageMagickHandler extends BaseHandler
         return $this;
     }
 }
+
+

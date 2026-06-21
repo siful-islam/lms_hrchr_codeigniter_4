@@ -19,3 +19,5 @@ namespace CodeIgniter\Exceptions;
 interface HTTPExceptionInterface extends ExceptionInterface
 {
 }
+
+

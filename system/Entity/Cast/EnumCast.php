@@ -129,3 +129,5 @@ class EnumCast extends BaseCast
         throw CastException::forInvalidEnumCaseName($enumClass, $value);
     }
 }
+
+

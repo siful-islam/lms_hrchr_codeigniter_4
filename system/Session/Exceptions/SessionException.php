@@ -69,3 +69,5 @@ class SessionException extends FrameworkException
         return new static(lang('Session.invalidSameSiteSetting', [$samesite]));
     }
 }
+
+

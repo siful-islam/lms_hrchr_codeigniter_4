@@ -386,3 +386,5 @@ class LocalizationFinder extends BaseCommand
         return compact('foundLanguageKeys', 'badLanguageKeys', 'countFiles');
     }
 }
+
+

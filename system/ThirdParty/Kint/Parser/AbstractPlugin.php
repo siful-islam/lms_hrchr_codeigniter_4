@@ -46,3 +46,5 @@ abstract class AbstractPlugin implements ConstructablePluginInterface
         return $this->parser;
     }
 }
+
+

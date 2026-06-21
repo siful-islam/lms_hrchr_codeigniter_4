@@ -160,3 +160,5 @@ interface ConnectionInterface
      */
     public function isWriteType($sql): bool;
 }
+
+

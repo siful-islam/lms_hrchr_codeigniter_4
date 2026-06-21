@@ -30,3 +30,5 @@ class MockSecurity extends Security
         return bin2hex(($hashBinary ^ $keyBinary) . $keyBinary);
     }
 }
+
+

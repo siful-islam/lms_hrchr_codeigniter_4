@@ -96,3 +96,5 @@ trait LoggerTrait
      */
     abstract public function log($level, string|\Stringable $message, array $context = []): void;
 }
+
+

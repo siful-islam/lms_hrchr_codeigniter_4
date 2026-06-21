@@ -76,3 +76,5 @@ abstract class Migration
      */
     abstract public function down();
 }
+
+

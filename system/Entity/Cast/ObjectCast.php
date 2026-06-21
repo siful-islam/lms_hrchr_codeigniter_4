@@ -20,3 +20,5 @@ class ObjectCast extends BaseCast
         return (object) $value;
     }
 }
+
+

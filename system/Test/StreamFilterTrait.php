@@ -40,3 +40,5 @@ trait StreamFilterTrait
         CITestStreamFilter::$buffer = '';
     }
 }
+
+

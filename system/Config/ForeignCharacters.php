@@ -115,3 +115,5 @@ class ForeignCharacters
         '/я/'                                                         => 'ya',
     ];
 }
+
+

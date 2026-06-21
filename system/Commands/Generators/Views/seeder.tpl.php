@@ -11,3 +11,5 @@ class {class} extends Seeder
         //
     }
 }
+
+

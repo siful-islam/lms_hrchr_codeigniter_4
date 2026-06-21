@@ -35,3 +35,5 @@ class ExampleMigration extends Migration
         $this->forge->dropTable('factories');
     }
 }
+
+

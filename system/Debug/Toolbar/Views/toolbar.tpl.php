@@ -279,3 +279,5 @@ use CodeIgniter\View\Parser;
 <?= sprintf(".%s { %s }\n", $name, $style) ?>
 <?php endforeach ?>
 </style>
+
+

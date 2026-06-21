@@ -16,3 +16,5 @@ class LogLevel
     const INFO      = 'info';
     const DEBUG     = 'debug';
 }
+
+

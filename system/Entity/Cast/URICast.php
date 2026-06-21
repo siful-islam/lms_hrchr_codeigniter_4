@@ -22,3 +22,5 @@ class URICast extends BaseCast
         return $value instanceof URI ? $value : new URI($value);
     }
 }
+
+

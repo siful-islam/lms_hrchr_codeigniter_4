@@ -97,3 +97,5 @@ class DataException extends RuntimeException implements ExceptionInterface
         return new static(lang('Database.forFindColumnHaveMultipleColumns'));
     }
 }
+
+

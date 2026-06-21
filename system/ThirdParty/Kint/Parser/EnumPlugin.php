@@ -82,3 +82,5 @@ class EnumPlugin extends AbstractPlugin implements PluginCompleteInterface
         return $object;
     }
 }
+
+

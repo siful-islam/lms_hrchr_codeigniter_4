@@ -153,3 +153,5 @@ class Cell implements Stringable
         return $properties;
     }
 }
+
+

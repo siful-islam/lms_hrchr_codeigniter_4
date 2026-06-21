@@ -602,3 +602,5 @@ class Connection extends BaseConnection
         return (bool) pg_query($this->connID, 'ROLLBACK');
     }
 }
+
+

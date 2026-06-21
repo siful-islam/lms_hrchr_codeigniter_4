@@ -84,3 +84,5 @@ class ValidationGenerator extends BaseCommand
         $this->generateClass($params);
     }
 }
+
+

@@ -125,3 +125,5 @@ class InvalidChars implements FilterInterface
         throw SecurityException::forInvalidControlChars($this->source, $value);
     }
 }
+
+

@@ -33,3 +33,5 @@ class IntegerCast extends BaseCast
         return (int) $value;
     }
 }
+
+

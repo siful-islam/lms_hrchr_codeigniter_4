@@ -118,3 +118,5 @@ class EnumCast extends BaseCast implements CastInterface
         return $value->name;
     }
 }
+
+

@@ -481,3 +481,5 @@ class Connection extends BaseConnection
         return (bool) $result;
     }
 }
+
+

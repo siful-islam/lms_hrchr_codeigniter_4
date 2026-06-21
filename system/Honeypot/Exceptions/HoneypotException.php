@@ -59,3 +59,5 @@ class HoneypotException extends ConfigException
         return new static(lang('Honeypot.theClientIsABot'));
     }
 }
+
+

@@ -84,3 +84,5 @@ class FilterGenerator extends BaseCommand
         $this->generateClass($params);
     }
 }
+
+

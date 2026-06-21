@@ -28,3 +28,5 @@ class BadRequestException extends RuntimeException implements HTTPExceptionInter
      */
     protected $code = 400; // @phpstan-ignore-line
 }
+
+

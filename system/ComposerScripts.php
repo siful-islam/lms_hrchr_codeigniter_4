@@ -172,3 +172,5 @@ final class ComposerScripts
         }
     }
 }
+
+

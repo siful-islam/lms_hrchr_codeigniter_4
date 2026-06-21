@@ -499,3 +499,5 @@ class Builder extends BaseBuilder
         return $this->db->query('SELECT * FROM (' . $sql . ') "_u_" WHERE ROWNUM = 1')->getFieldNames();
     }
 }
+
+

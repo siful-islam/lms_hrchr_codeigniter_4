@@ -35,3 +35,5 @@ class Pager extends BaseConfig
      */
     public int $perPage = 20;
 }
+
+

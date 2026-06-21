@@ -157,3 +157,5 @@ interface ImageHandlerInterface
      */
     public function clearMetadata(): static;
 }
+
+

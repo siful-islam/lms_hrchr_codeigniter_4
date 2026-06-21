@@ -84,3 +84,5 @@ class Request extends OutgoingRequest implements RequestInterface
         return $this->uri;
     }
 }
+
+

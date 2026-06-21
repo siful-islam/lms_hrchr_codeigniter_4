@@ -98,3 +98,5 @@ class ConfigGenerator extends BaseCommand
         return $this->parseTemplate($class);
     }
 }
+
+

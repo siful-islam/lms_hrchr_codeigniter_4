@@ -119,3 +119,5 @@ class ImageException extends FrameworkException
         return new static(lang('Images.imageProcessFailed'));
     }
 }
+
+

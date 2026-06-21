@@ -621,3 +621,5 @@ class RichRenderer extends AbstractRenderer
         return $this->plugin_objs[$plugin];
     }
 }
+
+

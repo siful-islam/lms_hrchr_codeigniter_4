@@ -174,3 +174,5 @@ class MysqliPlugin extends AbstractPlugin implements PluginCompleteInterface
         return $v;
     }
 }
+
+

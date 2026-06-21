@@ -76,3 +76,5 @@ return [
     'max_dims' => '{field} is either not an image, or it is too wide or tall.',
     'min_dims' => '{field} is either not an image, or it is not wide or tall enough.',
 ];
+
+

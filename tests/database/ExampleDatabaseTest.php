@@ -44,3 +44,5 @@ final class ExampleDatabaseTest extends CIUnitTestCase
         $this->assertCount(1, $result);
     }
 }
+
+

@@ -82,3 +82,5 @@ class MockSession extends Session
         $_SESSION['__ci_last_regenerate'] = Time::now()->getTimestamp();
     }
 }
+
+

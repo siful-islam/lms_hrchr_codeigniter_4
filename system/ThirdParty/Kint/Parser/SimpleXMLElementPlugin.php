@@ -297,3 +297,5 @@ class SimpleXMLElementPlugin extends AbstractPlugin implements PluginBeginInterf
         return false;
     }
 }
+
+

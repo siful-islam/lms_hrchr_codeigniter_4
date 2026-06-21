@@ -209,3 +209,5 @@ class GenerateKey extends BaseCommand
         return '/^(\h*(?:export\h+)?encryption\.key\h*=\h*)[^\r\n]*$/m';
     }
 }
+
+

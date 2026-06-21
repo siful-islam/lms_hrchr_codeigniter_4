@@ -88,3 +88,5 @@ Boot::bootTest($paths);
  */
 
 service('routes')->loadRoutes();
+
+

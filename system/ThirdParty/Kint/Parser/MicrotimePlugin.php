@@ -123,3 +123,5 @@ class MicrotimePlugin extends AbstractPlugin implements PluginCompleteInterface
         return self::$group = \bin2hex(\random_bytes(4));
     }
 }
+
+

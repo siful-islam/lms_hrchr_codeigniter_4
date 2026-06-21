@@ -145,3 +145,5 @@ class Toolbar extends BaseConfig
         'X-Up-Version'     => null,             // Unpoly partial requests
     ];
 }
+
+

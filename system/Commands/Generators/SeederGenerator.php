@@ -84,3 +84,5 @@ class SeederGenerator extends BaseCommand
         $this->generateClass($params);
     }
 }
+
+

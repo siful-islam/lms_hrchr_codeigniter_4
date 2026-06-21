@@ -1209,3 +1209,5 @@ class URI implements Stringable
         return $return;
     }
 }
+
+

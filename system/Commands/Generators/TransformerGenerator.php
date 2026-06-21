@@ -92,3 +92,5 @@ class TransformerGenerator extends BaseCommand
         return $this->parseTemplate($class);
     }
 }
+
+

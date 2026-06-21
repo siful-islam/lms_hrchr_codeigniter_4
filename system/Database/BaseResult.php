@@ -535,3 +535,5 @@ abstract class BaseResult implements ResultInterface
      */
     abstract protected function fetchObject(string $className = stdClass::class);
 }
+
+

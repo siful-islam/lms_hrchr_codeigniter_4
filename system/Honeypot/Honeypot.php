@@ -117,3 +117,5 @@ class Honeypot
         return $template;
     }
 }
+
+

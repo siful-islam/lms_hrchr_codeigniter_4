@@ -36,3 +36,5 @@ class VirtualValue extends AbstractValue
         parent::__construct($context, 'virtual');
     }
 }
+
+

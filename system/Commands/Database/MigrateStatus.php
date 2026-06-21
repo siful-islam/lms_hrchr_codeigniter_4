@@ -166,3 +166,5 @@ class MigrateStatus extends BaseCommand
         CLI::table($status, $headers);
     }
 }
+
+

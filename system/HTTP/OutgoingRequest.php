@@ -161,3 +161,5 @@ class OutgoingRequest extends Message implements OutgoingRequestInterface
         return $this->header('Host')->getValue() === '';
     }
 }
+
+

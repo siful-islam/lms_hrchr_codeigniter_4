@@ -62,3 +62,5 @@ class CallableDefinitionPlugin extends AbstractPlugin implements TabPluginInterf
         return '<pre>'.$docstring.'</pre>';
     }
 }
+
+

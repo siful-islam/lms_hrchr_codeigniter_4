@@ -91,3 +91,5 @@ class ClosurePlugin extends AbstractPlugin implements PluginCompleteInterface
         return $object;
     }
 }
+
+

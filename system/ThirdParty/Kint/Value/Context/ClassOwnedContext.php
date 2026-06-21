@@ -57,3 +57,5 @@ class ClassOwnedContext extends BaseContext
         return __PHP_Incomplete_Class::class !== $this->owner_class;
     }
 }
+
+

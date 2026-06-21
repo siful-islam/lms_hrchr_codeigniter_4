@@ -15,3 +15,5 @@ final class ExampleSessionTest extends CIUnitTestCase
         $this->assertSame(123, $session->get('logged_in'));
     }
 }
+
+

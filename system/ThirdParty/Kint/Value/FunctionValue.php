@@ -96,3 +96,5 @@ class FunctionValue extends AbstractValue
         return 'https://www.php.net/function.'.\str_replace('_', '-', \strtolower((string) $this->context->getName()));
     }
 }
+
+

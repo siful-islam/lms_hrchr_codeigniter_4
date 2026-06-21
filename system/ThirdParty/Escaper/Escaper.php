@@ -395,3 +395,5 @@ class Escaper implements EscaperInterface
         return $result;
     }
 }
+
+

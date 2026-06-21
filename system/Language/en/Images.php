@@ -36,3 +36,5 @@ return [
     // @deprecated
     'libPathInvalid' => 'The path to your image library is not correct. Please set the correct path in your image preferences. "{0}"',
 ];
+
+

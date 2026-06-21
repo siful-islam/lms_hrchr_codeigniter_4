@@ -389,3 +389,5 @@ trait DatabaseTestTrait
         $this->setPrivateProperty($this->db, 'DBDebug', true);
     }
 }
+
+

@@ -48,3 +48,5 @@ class {class} extends Migration
     }
 <?php endif ?>
 }
+
+

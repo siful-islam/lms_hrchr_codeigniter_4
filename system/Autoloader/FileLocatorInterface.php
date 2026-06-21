@@ -84,3 +84,5 @@ interface FileLocatorInterface
      */
     public function listNamespaceFiles(string $prefix, string $path): array;
 }
+
+

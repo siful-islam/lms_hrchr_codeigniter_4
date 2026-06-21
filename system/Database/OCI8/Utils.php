@@ -38,3 +38,5 @@ class Utils extends BaseUtils
         throw new DatabaseException('Unsupported feature of the database platform you are using.');
     }
 }
+
+

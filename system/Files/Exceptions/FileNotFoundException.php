@@ -28,3 +28,5 @@ class FileNotFoundException extends RuntimeException implements ExceptionInterfa
         return new static(lang('Files.fileNotFound', [$path]));
     }
 }
+
+

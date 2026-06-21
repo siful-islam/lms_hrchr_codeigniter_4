@@ -84,3 +84,5 @@ final class PhpStreamWrapper
         return $this->position >= strlen(self::$content);
     }
 }
+
+

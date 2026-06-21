@@ -821,3 +821,5 @@ class Builder extends BaseBuilder
         return $this->db->query('SELECT TOP 1 * FROM (' . $sql . ') _u_')->getFieldNames();
     }
 }
+
+

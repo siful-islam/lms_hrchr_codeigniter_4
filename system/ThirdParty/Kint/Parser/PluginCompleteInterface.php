@@ -40,3 +40,5 @@ interface PluginCompleteInterface extends PluginInterface
      */
     public function parseComplete(&$var, AbstractValue $v, int $trigger): AbstractValue;
 }
+
+

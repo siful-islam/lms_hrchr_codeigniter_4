@@ -156,3 +156,5 @@ class CallableDefinitionRepresentation extends AbstractRepresentation
         return \implode("\n", $docstring);
     }
 }
+
+

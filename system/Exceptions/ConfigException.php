@@ -34,3 +34,5 @@ class ConfigException extends RuntimeException implements HasExitCodeInterface
         return new static(lang('Migrations.disabled'));
     }
 }
+
+

@@ -39,3 +39,5 @@ class ExampleSeeder extends Seeder
         }
     }
 }
+
+

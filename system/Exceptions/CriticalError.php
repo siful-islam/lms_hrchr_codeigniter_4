@@ -19,3 +19,5 @@ namespace CodeIgniter\Exceptions;
 class CriticalError extends RuntimeException
 {
 }
+
+

@@ -64,3 +64,5 @@ class MicrotimePlugin extends AbstractPlugin implements TabPluginInterface
         return '<pre data-kint-microtime-group="'.$r->getGroup().'">'.$out.'</pre>';
     }
 }
+
+

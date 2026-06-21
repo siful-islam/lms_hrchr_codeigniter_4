@@ -543,3 +543,5 @@ class Security implements SecurityInterface
         $this->session->set($this->config->tokenName, $this->hash);
     }
 }
+
+

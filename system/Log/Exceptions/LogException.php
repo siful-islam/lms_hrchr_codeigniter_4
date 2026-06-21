@@ -33,3 +33,5 @@ class LogException extends FrameworkException
         return new static(lang('Log.invalidMessageType', [$messageType]));
     }
 }
+
+

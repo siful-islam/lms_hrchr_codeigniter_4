@@ -20,3 +20,5 @@ return [
     'authenticationFailed' => 'Decrypting: authentication failed.',
     'encryptionFailed'     => 'Encryption failed.',
 ];
+
+

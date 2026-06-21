@@ -62,3 +62,5 @@ class BinaryPlugin extends AbstractPlugin implements TabPluginInterface
         return $out;
     }
 }
+
+

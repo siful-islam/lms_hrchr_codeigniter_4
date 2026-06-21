@@ -21,3 +21,5 @@ use CodeIgniter\Entity\Exceptions\CastException as EntityCastException;
 class CastException extends EntityCastException
 {
 }
+
+

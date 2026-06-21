@@ -55,3 +55,5 @@ class StringRepresentation extends AbstractRepresentation
         return $this->value;
     }
 }
+
+

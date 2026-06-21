@@ -48,3 +48,5 @@ class StaticPropertyContext extends DoubleAccessMemberContext
         return $final.$this->getAccess().' static';
     }
 }
+
+

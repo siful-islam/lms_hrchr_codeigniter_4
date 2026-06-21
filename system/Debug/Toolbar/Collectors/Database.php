@@ -264,3 +264,5 @@ class Database extends BaseCollector
         static::$queries = [];
     }
 }
+
+

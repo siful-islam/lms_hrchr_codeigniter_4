@@ -46,3 +46,5 @@ trait ConfigFromArrayTrait
         return $configObj;
     }
 }
+
+

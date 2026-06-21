@@ -136,3 +136,5 @@ class Image extends File
         return true;
     }
 }
+
+

@@ -66,3 +66,5 @@ class SplFileInfoPlugin extends AbstractPlugin implements PluginCompleteInterfac
         return $out;
     }
 }
+
+

@@ -361,3 +361,5 @@ trait RequestTrait
         $this->globals[$name] = service('superglobals')->getGlobalArray($name);
     }
 }
+
+

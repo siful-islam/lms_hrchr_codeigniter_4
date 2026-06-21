@@ -504,3 +504,5 @@ class GDHandler extends BaseHandler
         return imagesy($this->resource);
     }
 }
+
+

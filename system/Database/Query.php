@@ -376,3 +376,5 @@ class Query implements QueryInterface, Stringable
         return $this->getQuery();
     }
 }
+
+

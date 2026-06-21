@@ -104,3 +104,5 @@ class MockResult extends BaseResult
         return 0;
     }
 }
+
+

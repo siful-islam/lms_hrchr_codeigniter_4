@@ -120,3 +120,5 @@ if (! function_exists('has_cookie')) {
         return service('response')->hasCookie($name, $value, $prefix);
     }
 }
+
+

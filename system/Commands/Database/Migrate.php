@@ -106,3 +106,5 @@ class Migrate extends BaseCommand
         }
     }
 }
+
+

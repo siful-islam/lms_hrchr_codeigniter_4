@@ -48,3 +48,5 @@ class BinaryRepresentation extends AbstractRepresentation
         return $this->value;
     }
 }
+
+

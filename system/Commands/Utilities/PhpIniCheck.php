@@ -94,3 +94,5 @@ final class PhpIniCheck extends BaseCommand
         return EXIT_SUCCESS;
     }
 }
+
+

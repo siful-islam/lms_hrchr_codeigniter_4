@@ -88,3 +88,5 @@ class ClearLogs extends BaseCommand
         return EXIT_SUCCESS;
     }
 }
+
+

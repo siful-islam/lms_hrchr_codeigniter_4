@@ -20,3 +20,5 @@ class FloatCast extends BaseCast
         return (float) $value;
     }
 }
+
+

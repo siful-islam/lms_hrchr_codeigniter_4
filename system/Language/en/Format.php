@@ -18,3 +18,5 @@ return [
     'invalidMime'      => 'No Formatter defined for mime type: "{0}".',
     'missingExtension' => 'The SimpleXML extension is required to format XML.',
 ];
+
+

@@ -23,3 +23,5 @@ use CodeIgniter\Validation\StrictRules\FileRules as StrictFileRules;
 class FileRules extends StrictFileRules
 {
 }
+
+

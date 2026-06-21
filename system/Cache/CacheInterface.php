@@ -116,3 +116,5 @@ interface CacheInterface
      */
     public function isSupported(): bool;
 }
+
+

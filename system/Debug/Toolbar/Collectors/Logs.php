@@ -103,3 +103,5 @@ class Logs extends BaseCollector
         return $this->data;
     }
 }
+
+

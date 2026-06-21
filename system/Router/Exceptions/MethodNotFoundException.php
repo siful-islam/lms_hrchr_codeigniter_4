@@ -21,3 +21,5 @@ use CodeIgniter\Exceptions\RuntimeException;
 final class MethodNotFoundException extends RuntimeException implements ExceptionInterface
 {
 }
+
+

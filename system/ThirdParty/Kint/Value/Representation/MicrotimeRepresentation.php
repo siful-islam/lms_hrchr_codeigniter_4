@@ -123,3 +123,5 @@ class MicrotimeRepresentation extends AbstractRepresentation
         return DateTimeImmutable::createFromFormat('U u', $this->seconds.' '.\str_pad((string) $this->microseconds, 6, '0', STR_PAD_LEFT)) ?: null;
     }
 }
+
+

@@ -107,3 +107,5 @@ class Encryption extends BaseConfig
      */
     public string $cipher = 'AES-256-CTR';
 }
+
+

@@ -81,3 +81,5 @@ class RouterException extends FrameworkException implements ExceptionInterface
         return new static(lang('Router.invalidControllerName', [$handler]));
     }
 }
+
+

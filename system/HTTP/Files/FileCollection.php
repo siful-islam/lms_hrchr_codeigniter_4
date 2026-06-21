@@ -262,3 +262,5 @@ class FileCollection
         return $value[$currentIndex] ?? null;
     }
 }
+
+

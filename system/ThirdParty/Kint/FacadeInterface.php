@@ -47,3 +47,5 @@ interface FacadeInterface
      */
     public function dumpAll(array $vars, array $base): string;
 }
+
+

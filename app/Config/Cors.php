@@ -103,3 +103,5 @@ class Cors extends BaseConfig
         'maxAge' => 7200,
     ];
 }
+
+

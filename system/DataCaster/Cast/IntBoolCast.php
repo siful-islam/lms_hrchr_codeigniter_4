@@ -45,3 +45,5 @@ final class IntBoolCast extends BaseCast
         return (int) $value;
     }
 }
+
+

@@ -28,3 +28,5 @@ class MockAppConfig extends App
         'es',
     ];
 }
+
+

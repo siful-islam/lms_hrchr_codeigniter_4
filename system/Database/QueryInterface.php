@@ -80,3 +80,5 @@ interface QueryInterface
      */
     public function getOriginalQuery(): string;
 }
+
+

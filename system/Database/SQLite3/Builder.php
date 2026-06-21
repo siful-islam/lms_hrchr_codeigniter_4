@@ -278,3 +278,5 @@ class Builder extends BaseBuilder
         return str_replace('{:_table_:}', $data, $sql);
     }
 }
+
+

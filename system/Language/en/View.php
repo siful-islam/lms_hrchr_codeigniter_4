@@ -21,3 +21,5 @@ return [
     'tagSyntaxError'        => 'You have a syntax error in your Parser tags: "{0}"',
     'invalidDecoratorClass' => '"{0}" is not a valid View Decorator.',
 ];
+
+

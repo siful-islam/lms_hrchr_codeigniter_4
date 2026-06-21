@@ -24,3 +24,5 @@ return [
     'invalidCookieInstance' => '"{0}" class expected cookies array to be instances of "{1}" but got "{2}" at index {3}.',
     'unknownCookieInstance' => 'Cookie object with name "{0}" and prefix "{1}" was not found in the collection.',
 ];
+
+

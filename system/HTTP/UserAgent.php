@@ -377,3 +377,5 @@ class UserAgent implements Stringable
         return $this->getAgentString();
     }
 }
+
+

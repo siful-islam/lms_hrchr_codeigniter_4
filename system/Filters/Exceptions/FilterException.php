@@ -41,3 +41,5 @@ class FilterException extends ConfigException
         return new static(lang('Filters.incorrectInterface', [$class]));
     }
 }
+
+

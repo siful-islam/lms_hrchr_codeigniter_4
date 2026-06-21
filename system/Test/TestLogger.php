@@ -93,3 +93,5 @@ class TestLogger extends Logger
         return false;
     }
 }
+
+

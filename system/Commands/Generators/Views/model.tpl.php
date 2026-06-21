@@ -47,3 +47,5 @@ class {class} extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 }
+
+

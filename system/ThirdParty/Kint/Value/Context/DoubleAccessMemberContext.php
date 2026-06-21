@@ -57,3 +57,5 @@ abstract class DoubleAccessMemberContext extends ClassDeclaredContext
         }
     }
 }
+
+

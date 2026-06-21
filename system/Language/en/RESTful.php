@@ -17,3 +17,5 @@ return [
     'cannotPaginate' => 'Unable to retrieve paginated data.',
     'paginateError'  => 'An error occurred while paginating results.',
 ];
+
+

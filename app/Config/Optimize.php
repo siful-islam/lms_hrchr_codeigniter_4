@@ -30,3 +30,5 @@ class Optimize
      */
     public bool $locatorCacheEnabled = false;
 }
+
+

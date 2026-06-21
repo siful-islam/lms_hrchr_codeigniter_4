@@ -60,3 +60,5 @@ interface PreparedQueryInterface
      */
     public function getErrorMessage(): string;
 }
+
+

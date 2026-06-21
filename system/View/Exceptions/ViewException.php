@@ -73,3 +73,5 @@ class ViewException extends FrameworkException
         return new static(lang('View.invalidDecoratorClass', [$className]));
     }
 }
+
+

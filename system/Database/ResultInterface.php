@@ -181,3 +181,5 @@ interface ResultInterface
      */
     public function dataSeek(int $n = 0);
 }
+
+

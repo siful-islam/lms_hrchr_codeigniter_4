@@ -100,3 +100,5 @@ class ColorPlugin extends AbstractPlugin implements TabPluginInterface, ValuePlu
         return '<pre>'.$out.'</pre>';
     }
 }
+
+

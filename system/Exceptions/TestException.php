@@ -28,3 +28,5 @@ class TestException extends LogicException
         return new static(lang('Test.invalidMockClass', [$name]));
     }
 }
+
+

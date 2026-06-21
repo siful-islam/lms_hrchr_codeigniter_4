@@ -34,3 +34,5 @@ class CLIException extends RuntimeException
         return new static(lang('CLI.invalidColor', [$type, $color]));
     }
 }
+
+

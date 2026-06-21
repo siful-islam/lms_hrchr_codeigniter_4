@@ -221,3 +221,5 @@ class File extends SplFileInfo
         return $size;
     }
 }
+
+

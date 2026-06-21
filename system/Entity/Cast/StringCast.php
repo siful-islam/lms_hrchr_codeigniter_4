@@ -20,3 +20,5 @@ class StringCast extends BaseCast
         return (string) $value;
     }
 }
+
+

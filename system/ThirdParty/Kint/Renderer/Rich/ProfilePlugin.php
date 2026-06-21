@@ -54,3 +54,5 @@ class ProfilePlugin extends AbstractPlugin implements TabPluginInterface
         return $out;
     }
 }
+
+

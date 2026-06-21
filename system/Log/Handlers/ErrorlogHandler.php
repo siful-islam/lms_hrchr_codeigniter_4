@@ -88,3 +88,5 @@ class ErrorlogHandler extends BaseHandler
         return error_log($message, $messageType);
     }
 }
+
+

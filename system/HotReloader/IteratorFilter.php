@@ -55,3 +55,5 @@ final class IteratorFilter extends RecursiveFilterIterator implements RecursiveI
         return in_array($ext, $this->watchedExtensions, true);
     }
 }
+
+

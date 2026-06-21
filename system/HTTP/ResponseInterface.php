@@ -406,3 +406,5 @@ interface ResponseInterface extends MessageInterface
      */
     public function getCSP(): ContentSecurityPolicy;
 }
+
+

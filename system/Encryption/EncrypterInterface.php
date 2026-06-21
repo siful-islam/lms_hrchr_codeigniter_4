@@ -47,3 +47,5 @@ interface EncrypterInterface
      */
     public function decrypt($data, #[SensitiveParameter] $params = null);
 }
+
+

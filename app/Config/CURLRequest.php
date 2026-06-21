@@ -34,3 +34,5 @@ class CURLRequest extends BaseConfig
      */
     public bool $shareOptions = false;
 }
+
+

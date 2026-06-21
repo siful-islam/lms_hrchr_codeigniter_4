@@ -24,3 +24,5 @@ class NullLogger extends AbstractLogger
         // noop
     }
 }
+
+

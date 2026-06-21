@@ -177,3 +177,5 @@ class XmlPlugin extends AbstractPlugin implements PluginCompleteInterface
         return $this->getParser()->parse($xml, $base);
     }
 }
+
+

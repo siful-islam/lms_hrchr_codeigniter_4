@@ -68,3 +68,5 @@ trait AssetRendererTrait
         return self::$assetCache['css'][self::$theme];
     }
 }
+
+

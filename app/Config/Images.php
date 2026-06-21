@@ -31,3 +31,5 @@ class Images extends BaseConfig
         'imagick' => ImageMagickHandler::class,
     ];
 }
+
+

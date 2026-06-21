@@ -18,3 +18,5 @@ use CodeIgniter\Database\Query;
 class MockQuery extends Query
 {
 }
+
+

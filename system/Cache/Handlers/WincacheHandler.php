@@ -119,3 +119,5 @@ class WincacheHandler extends BaseHandler
         return extension_loaded('wincache') && ini_get('wincache.ucenabled');
     }
 }
+
+

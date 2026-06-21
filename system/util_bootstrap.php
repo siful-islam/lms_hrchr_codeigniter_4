@@ -82,3 +82,5 @@ if (is_dir(HOMEPATH . 'vendor/')) {
 
 require $paths->systemDirectory . '/Boot.php';
 Boot::bootConsole($paths);
+
+

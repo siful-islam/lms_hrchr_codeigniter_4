@@ -26,3 +26,5 @@ interface ViewDecoratorInterface
      */
     public static function decorate(string $html): string;
 }
+
+

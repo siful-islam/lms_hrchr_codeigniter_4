@@ -130,3 +130,5 @@ class TablePlugin extends AbstractPlugin implements TabPluginInterface
         return $out;
     }
 }
+
+

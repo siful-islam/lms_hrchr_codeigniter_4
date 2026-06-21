@@ -82,3 +82,5 @@ final class DirectoryHasher
         return md5(implode('', $hashes));
     }
 }
+
+

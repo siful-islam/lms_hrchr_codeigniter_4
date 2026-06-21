@@ -55,3 +55,5 @@ class DomNodeListValue extends InstanceValue
         return (string) $this->length;
     }
 }
+
+

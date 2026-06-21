@@ -1,0 +1,80 @@
+<!-- Start Top Rated Course -->
+<section class="featured-course pb-110 wow animate__animated  animate__fadeInUp " data-wow-duration="1000" data-wow-delay="500">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <!-- Title -->
+        <div class="title-two text-center pb-50">
+          <h4 class="title"><?php 
+$crudModel = new \App\Models\Crud_model();
+$userModel = new \App\Models\User_model();
+echo get_phrase('Top Courses') ?></h4>
+          <p class="info"><?php echo get_phrase('These_are_the_most_popular_courses_among_Listen_Courses_learners_worldwide'); ?></p>
+        </div>
+      </div>
+    </div>
+    <!-- Items -->
+    <div class="row g-3">
+      <?php $top_courses = $crudModel->get_top_courses()->getResultArray();
+      foreach ($top_courses as $key => $top_course) :
+        if($key == 8) break;
+        $instructor_details = $userModel->get_all_user($top_course['creator'])->getRowArray();
+        $course_duration = $crudModel->get_total_duration_of_lesson_by_course_id($top_course['id']);
+        $number_of_enrolled_students = $crudModel->enrol_history($top_course['id'], true)->getNumRows();
+        $lessons = $crudModel->get_lessons('course', $top_course['id']);
+        $total_rating =  $crudModel->get_ratings('course', $top_course['id'], true)->getRow()->rating;
+        $number_of_ratings = $crudModel->get_ratings('course', $top_course['id'])->getNumRows();
+        if ($number_of_ratings > 0) {
+            $average_ceil_rating = ceil($total_rating / $number_of_ratings);
+        } else {
+            $average_ceil_rating = 0;
+        }
+        ?>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <a href="<?php echo site_url('home/course/' . rawurlencode(slugify($top_course['title'])) . '/' . $top_course['id']); ?>" class="course-item-6 checkPropagation">
+            <div class="img">
+              <img loading="lazy" src="<?php echo $crudModel->get_course_thumbnail_url($top_course['id']); ?>" alt="" />
+            </div>
+            <div class="content">
+              <h4 class="title"><?php echo $top_course['title']; ?></h4>
+              <div class="time-rate d-flex justify-content-between align-items-center">
+                <div class="time d-flex align-items-center">
+                  <div class="icon">
+                    <img loading="lazy" src="<?php echo site_url('assets/frontend/default-new/') ?>image/icon/clock-6.svg" alt="" />
+                  </div>
+                  <p class="info"><?php echo $course_duration; ?></p>
+                </div>
+                <div class="rate d-flex align-items-center">
+                  <p class="info"><?php echo $average_ceil_rating; ?></p>
+                  <div class="icon">
+                    <img loading="lazy" src="<?php echo site_url('assets/frontend/default-new/') ?>image/icon/star.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="user-price d-flex justify-content-between align-items-center">
+                <div class="user d-flex align-items-center checkPropagation" onclick="redirectTo('<?php echo site_url('home/instructor_page/'.$instructor_details['id']) ?>')">
+                  <div class="img">
+                    <img loading="lazy" src="<?php echo $userModel->get_user_image_url($instructor_details['id']); ?>" alt="" />
+                  </div>
+                  <h4 class="name"><?php echo $instructor_details['first_name'].' '.$instructor_details['last_name']; ?></h4>
+                </div>
+                <p class="price d-flex align-items-center">
+                  <?php if($top_course['is_free_course']): ?>
+                    <?php echo get_phrase('Free'); ?>
+                  <?php elseif($top_course['discount_flag']): ?>
+                    <?php echo currency($top_course['discounted_price']); ?>
+                    <del class="ms-1 text-12px"><?php echo currency($top_course['price']); ?></del>
+                  <?php else: ?>
+                    <?php echo currency($top_course['price']); ?>
+                  <?php endif; ?>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+<!-- End Top Rated Course -->
+

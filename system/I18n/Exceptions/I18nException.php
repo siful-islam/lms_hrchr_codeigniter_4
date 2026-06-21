@@ -97,3 +97,5 @@ class I18nException extends FrameworkException
         return new static(lang('Time.invalidSeconds', [$seconds]));
     }
 }
+
+

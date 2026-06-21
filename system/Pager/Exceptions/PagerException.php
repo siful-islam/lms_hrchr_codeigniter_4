@@ -37,3 +37,5 @@ class PagerException extends FrameworkException
         return new static(lang('Pager.invalidPaginationGroup', [$group]));
     }
 }
+
+

@@ -61,3 +61,5 @@ class Kint
     public bool $cliDetectWidth = true;
     public int $cliMinWidth     = 40;
 }
+
+

@@ -68,3 +68,5 @@ class ClearDebugbar extends BaseCommand
         return EXIT_SUCCESS;
     }
 }
+
+

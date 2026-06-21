@@ -44,3 +44,5 @@ class MockResourcePresenter extends ResourcePresenter
         return $this->format;
     }
 }
+
+

@@ -47,3 +47,5 @@ class URICast extends BaseCast
         return (string) $value;
     }
 }
+
+

@@ -127,3 +127,5 @@ class CookieException extends FrameworkException
         return new static(lang('Cookie.unknownCookieInstance', $data));
     }
 }
+
+

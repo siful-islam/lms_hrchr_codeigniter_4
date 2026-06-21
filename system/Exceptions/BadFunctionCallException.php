@@ -20,3 +20,5 @@ namespace CodeIgniter\Exceptions;
 class BadFunctionCallException extends \BadFunctionCallException implements ExceptionInterface
 {
 }
+
+

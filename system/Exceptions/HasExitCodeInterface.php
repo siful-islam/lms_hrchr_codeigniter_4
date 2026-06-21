@@ -23,3 +23,5 @@ interface HasExitCodeInterface extends ExceptionInterface
      */
     public function getExitCode(): int;
 }
+
+

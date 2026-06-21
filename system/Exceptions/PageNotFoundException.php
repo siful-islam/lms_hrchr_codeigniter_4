@@ -80,3 +80,5 @@ class PageNotFoundException extends RuntimeException implements HTTPExceptionInt
         return $lang->getLine($line, $args);
     }
 }
+
+

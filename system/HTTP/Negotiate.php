@@ -429,3 +429,5 @@ class Negotiate
         return strtolower($aBroad) === strtolower($sBroad);
     }
 }
+
+

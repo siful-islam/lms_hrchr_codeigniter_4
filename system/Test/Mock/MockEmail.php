@@ -40,3 +40,5 @@ class MockEmail extends Email
         return $this->returnValue;
     }
 }
+
+

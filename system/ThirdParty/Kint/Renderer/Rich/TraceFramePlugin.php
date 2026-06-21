@@ -67,3 +67,5 @@ class TraceFramePlugin extends AbstractPlugin implements ValuePluginInterface
         return '<dl>'.$header.$children.'</dl>';
     }
 }
+
+

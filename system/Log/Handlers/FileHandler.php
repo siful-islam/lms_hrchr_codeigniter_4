@@ -128,3 +128,5 @@ class FileHandler extends BaseHandler
         return is_int($result);
     }
 }
+
+

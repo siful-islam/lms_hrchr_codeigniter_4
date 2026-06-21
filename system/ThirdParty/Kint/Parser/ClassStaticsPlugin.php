@@ -230,3 +230,5 @@ class ClassStaticsPlugin extends AbstractPlugin implements PluginCompleteInterfa
         return $context;
     }
 }
+
+

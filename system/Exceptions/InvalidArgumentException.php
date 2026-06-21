@@ -19,3 +19,5 @@ namespace CodeIgniter\Exceptions;
 class InvalidArgumentException extends \InvalidArgumentException implements ExceptionInterface
 {
 }
+
+

@@ -107,3 +107,5 @@ if (! function_exists('encode_php_tags')) {
         return str_replace(['<?', '?>'], ['&lt;?', '?&gt;'], $str);
     }
 }
+
+

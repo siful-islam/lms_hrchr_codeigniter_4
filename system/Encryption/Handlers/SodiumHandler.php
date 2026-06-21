@@ -159,3 +159,5 @@ class SodiumHandler extends BaseHandler
         $this->key = (string) $params;
     }
 }
+
+

@@ -74,3 +74,5 @@ class {class} extends BaseCommand
 <?php endif ?>
     }
 }
+
+

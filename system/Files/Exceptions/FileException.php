@@ -52,3 +52,5 @@ class FileException extends RuntimeException implements ExceptionInterface
         return new static(lang('Files.expectedFile', [$caller]));
     }
 }
+
+

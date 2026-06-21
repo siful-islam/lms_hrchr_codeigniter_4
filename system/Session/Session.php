@@ -641,3 +641,5 @@ class Session implements SessionInterface
         $response->setCookie($this->cookie);
     }
 }
+
+

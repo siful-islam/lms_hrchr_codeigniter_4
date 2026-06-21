@@ -260,3 +260,5 @@ class UserAgents extends BaseConfig
         'spider'               => 'Generic Spider',
     ];
 }
+
+

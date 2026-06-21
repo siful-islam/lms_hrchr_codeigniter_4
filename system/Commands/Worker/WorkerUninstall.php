@@ -118,3 +118,5 @@ class WorkerUninstall extends BaseCommand
         return EXIT_SUCCESS;
     }
 }
+
+

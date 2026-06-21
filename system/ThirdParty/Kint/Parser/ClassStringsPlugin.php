@@ -100,3 +100,5 @@ class ClassStringsPlugin extends AbstractPlugin implements PluginCompleteInterfa
         return $v;
     }
 }
+
+

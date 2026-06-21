@@ -116,3 +116,5 @@ class PreparedQuery extends BasePreparedQuery
         return $this->statement->close();
     }
 }
+
+

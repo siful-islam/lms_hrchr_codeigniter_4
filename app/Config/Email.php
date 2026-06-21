@@ -124,3 +124,5 @@ class Email extends BaseConfig
      */
     public bool $DSN = false;
 }
+
+

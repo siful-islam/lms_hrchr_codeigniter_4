@@ -583,3 +583,5 @@ class Autoloader
         CliRenderer::$min_terminal_width = $config->cliMinWidth;
     }
 }
+
+

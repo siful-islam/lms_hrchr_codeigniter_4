@@ -118,3 +118,5 @@ interface PagerInterface
      */
     public function getDetails(string $group = 'default'): array;
 }
+
+

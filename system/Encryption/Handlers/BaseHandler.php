@@ -76,3 +76,5 @@ abstract class BaseHandler implements EncrypterInterface
         return property_exists($this, $key);
     }
 }
+
+

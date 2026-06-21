@@ -92,3 +92,5 @@ class FrameworkException extends RuntimeException
         return new static(lang('Fabricator.createFailed', [$table, $reason]));
     }
 }
+
+

@@ -1,0 +1,39 @@
+<?php
+	
+$db = \Config\Database::connect();
+$has_upcoming_live_class = 0;
+	$live_class_time = null;
+
+if (addon_status('live-class')):
+		$db->where('course_id', $course_details['id']);
+		$live_class = $db->table('live_class')->get();
+		$live_class_time = date('d M Y ', $live_class->getRow()->date).date('h:i a', $live_class->getRow()->time);
+
+		if ($live_class->getNumRows() > 0 && strtotime($live_class_time) > time()):
+		    $live_class = $live_class->getRowArray();
+		    $has_upcoming_live_class = 1;
+		endif;
+endif; ?>
+
+<?php if(addon_status('jitsi-live-class')):
+		$db->where('course_id', $course_details['id']);
+		$jitsi_live_class = $db->table('jitsi_live_class')->get();
+		$jitsi_live_class_time = date('d M Y ', $jitsi_live_class->getRow()->date).date('h:i a', $jitsi_live_class->getRow()->time);
+
+		if ($jitsi_live_class->getNumRows() > 0):
+		    if($has_upcoming_live_class == 1 && strtotime($live_class_time) > strtotime($jitsi_live_class_time)){
+		    	$live_class_time = $jitsi_live_class_time;
+		    }elseif($has_upcoming_live_class == 0){
+		    	$has_upcoming_live_class = 1;
+		    	$live_class_time = $jitsi_live_class_time;
+		    }
+		endif;
+endif?>
+
+
+<?php if($has_upcoming_live_class == 1): ?>
+	<div class="alert alert-success text-center text-13px" role="alert">
+		<?php echo get_phrase('Upcoming live class'); ?> <strong><?php echo date('h:i A, d M Y', strtotime($live_class_time)); ?></strong>
+	</div>
+<?php endif; ?>
+

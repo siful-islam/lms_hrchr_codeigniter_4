@@ -34,3 +34,5 @@ class ColorValue extends StringValue
         return parent::getHint() ?? 'color';
     }
 }
+
+

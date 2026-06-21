@@ -39,3 +39,5 @@ interface RequestInterface extends OutgoingRequestInterface
      */
     public function getServer($index = null, $filter = null);
 }
+
+

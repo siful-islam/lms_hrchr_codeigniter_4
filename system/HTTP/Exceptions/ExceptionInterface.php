@@ -22,3 +22,5 @@ namespace CodeIgniter\HTTP\Exceptions;
 interface ExceptionInterface extends \CodeIgniter\Exceptions\ExceptionInterface
 {
 }
+
+

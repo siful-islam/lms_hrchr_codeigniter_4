@@ -133,3 +133,5 @@ class Plugins
         return csp_style_nonce();
     }
 }
+
+

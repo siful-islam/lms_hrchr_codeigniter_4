@@ -103,3 +103,5 @@ class XMLFormatter implements FormatterInterface
         return preg_replace('/^(xml).*/iu', 'item$0', $key); // XML is a reserved starting word
     }
 }
+
+

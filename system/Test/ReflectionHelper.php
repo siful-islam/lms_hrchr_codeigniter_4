@@ -97,3 +97,5 @@ trait ReflectionHelper
         return is_string($obj) ? $refProperty->getValue() : $refProperty->getValue($obj);
     }
 }
+
+

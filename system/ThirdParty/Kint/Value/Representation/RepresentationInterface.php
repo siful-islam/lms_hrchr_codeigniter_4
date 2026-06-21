@@ -37,3 +37,5 @@ interface RepresentationInterface
 
     public function labelIsImplicit(): bool;
 }
+
+

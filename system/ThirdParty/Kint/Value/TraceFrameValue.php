@@ -182,3 +182,5 @@ class TraceFrameValue extends ArrayValue
         return $this->object;
     }
 }
+
+

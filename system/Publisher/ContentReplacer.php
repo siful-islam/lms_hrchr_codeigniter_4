@@ -99,3 +99,5 @@ class ContentReplacer
         return $this->add($content, $line, $pattern, $replace);
     }
 }
+
+

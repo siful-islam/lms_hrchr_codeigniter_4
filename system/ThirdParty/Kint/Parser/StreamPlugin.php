@@ -86,3 +86,5 @@ class StreamPlugin extends AbstractPlugin implements PluginCompleteInterface
         return $stream;
     }
 }
+
+

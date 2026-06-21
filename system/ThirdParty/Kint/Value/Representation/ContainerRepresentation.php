@@ -61,3 +61,5 @@ class ContainerRepresentation extends AbstractRepresentation
         return parent::getLabel().' ('.\count($this->contents).')';
     }
 }
+
+

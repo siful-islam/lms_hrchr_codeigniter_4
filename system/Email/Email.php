@@ -2329,3 +2329,5 @@ class Email
             && get_debug_type($this->SMTPConnect) !== 'resource (closed)';
     }
 }
+
+

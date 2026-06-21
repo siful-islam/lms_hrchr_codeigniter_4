@@ -20,3 +20,5 @@ class BooleanCast extends BaseCast
         return (bool) $value;
     }
 }
+
+

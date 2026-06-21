@@ -121,3 +121,5 @@ class ScaffoldGenerator extends BaseCommand
         $this->call('make:seeder', array_merge([$class], $options));
     }
 }
+
+

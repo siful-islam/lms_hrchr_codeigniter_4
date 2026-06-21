@@ -611,3 +611,5 @@ class ColorRepresentation extends AbstractRepresentation
         return $m1;
     }
 }
+
+

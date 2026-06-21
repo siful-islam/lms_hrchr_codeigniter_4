@@ -120,3 +120,5 @@ class ClassHooksPlugin extends AbstractPlugin implements PluginCompleteInterface
         return $v;
     }
 }
+
+

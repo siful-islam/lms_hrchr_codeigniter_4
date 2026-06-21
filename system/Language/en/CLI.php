@@ -59,3 +59,5 @@ return [
         'failedSignal'     => 'Failed to register handler for signal: "{0}".',
     ],
 ];
+
+

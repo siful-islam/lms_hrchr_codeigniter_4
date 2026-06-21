@@ -62,3 +62,5 @@ final class NativeHeadersStack
         self::$headers[] = $header;
     }
 }
+
+

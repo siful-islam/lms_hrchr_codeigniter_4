@@ -328,3 +328,5 @@ class FileHandler extends BaseHandler
         $this->sessionIDRegex = '[0-9a-f]{32}';
     }
 }
+
+

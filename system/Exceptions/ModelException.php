@@ -42,3 +42,5 @@ class ModelException extends FrameworkException
         return new static(lang('Database.methodNotAvailable', [$modelName, $methodName]));
     }
 }
+
+

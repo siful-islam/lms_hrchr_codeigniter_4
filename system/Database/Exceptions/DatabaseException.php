@@ -23,3 +23,5 @@ class DatabaseException extends RuntimeException implements ExceptionInterface, 
         return EXIT_DATABASE;
     }
 }
+
+

@@ -31,3 +31,5 @@ return [
     'forFindColumnHaveMultipleColumns' => 'Only single column allowed in Column name.',
     'methodNotAvailable'               => 'You cannot use "{1}" in "{0}". This is a method of the Query Builder Class.',
 ];
+
+

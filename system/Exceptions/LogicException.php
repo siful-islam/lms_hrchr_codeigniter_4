@@ -19,3 +19,5 @@ namespace CodeIgniter\Exceptions;
 class LogicException extends \LogicException implements ExceptionInterface
 {
 }
+
+

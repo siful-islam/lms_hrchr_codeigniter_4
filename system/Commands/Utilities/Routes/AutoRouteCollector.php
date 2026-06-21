@@ -57,3 +57,5 @@ final readonly class AutoRouteCollector
         return $tbody;
     }
 }
+
+

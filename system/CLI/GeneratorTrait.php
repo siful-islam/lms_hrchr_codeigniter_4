@@ -522,3 +522,5 @@ trait GeneratorTrait
         return $this->params[$name] ?? true;
     }
 }
+
+

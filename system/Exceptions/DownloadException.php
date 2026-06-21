@@ -62,3 +62,5 @@ class DownloadException extends RuntimeException
         return new static(lang('HTTP.cannotSetStatusCode', [$code, $reason]));
     }
 }
+
+

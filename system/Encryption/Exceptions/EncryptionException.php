@@ -83,3 +83,5 @@ class EncryptionException extends RuntimeException
         return new static(lang('Encryption.encryptionFailed'));
     }
 }
+
+

@@ -1,0 +1,55 @@
+DEBUG - 2026-06-21 08:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-06-21 08:10:58 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_hrchr_lms', 3306, '', 0)
+#1 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\app\Helpers\common_helper.php(251): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\app\Controllers\BaseController.php(25): get_settings('timezone')
+#6 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\app\Controllers\Home.php(13): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#7 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\CodeIgniter.php(945): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#8 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+#9 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#3 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\app\Helpers\common_helper.php(251): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\app\Controllers\BaseController.php(25): get_settings('timezone')
+#5 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\app\Controllers\Home.php(13): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\CodeIgniter.php(945): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#7 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+#8 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\lms_hrchr_ci4_native_pattern_phase2\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-06-21 08:10:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1647): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `settings`
+WHERE `key` = :key:', [...], false)
+ 3 APPPATH\Helpers\common_helper.php(251): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\BaseController.php(25): get_settings('timezone')
+ 5 APPPATH\Controllers\Home.php(13): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(945): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 7 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\lms_hrchr_ci4_native_pattern_phase2\\public\\index.php')
+DEBUG - 2026-06-21 08:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-21 08:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

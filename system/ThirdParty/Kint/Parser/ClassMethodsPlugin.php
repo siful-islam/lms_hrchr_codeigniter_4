@@ -223,3 +223,5 @@ class ClassMethodsPlugin extends AbstractPlugin implements PluginCompleteInterfa
         return $this->static_cache[$class];
     }
 }
+
+

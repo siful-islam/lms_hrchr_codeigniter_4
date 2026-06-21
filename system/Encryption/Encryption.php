@@ -183,3 +183,5 @@ class Encryption
         return in_array($key, ['key', 'digest', 'driver', 'drivers'], true);
     }
 }
+
+

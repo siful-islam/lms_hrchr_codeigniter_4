@@ -17,3 +17,5 @@ interface ResponsableInterface
 {
     public function getResponse(): ResponseInterface;
 }
+
+

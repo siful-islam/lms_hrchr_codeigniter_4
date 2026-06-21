@@ -91,3 +91,5 @@ interface OutgoingRequestInterface extends MessageInterface
      */
     public function withUri(URI $uri, $preserveHost = false);
 }
+
+

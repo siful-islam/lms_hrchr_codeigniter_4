@@ -33,3 +33,5 @@ interface PluginInterface
 {
     public function __construct(RichRenderer $r);
 }
+
+

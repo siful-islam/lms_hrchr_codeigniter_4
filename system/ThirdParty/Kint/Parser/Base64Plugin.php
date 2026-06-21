@@ -101,3 +101,5 @@ class Base64Plugin extends AbstractPlugin implements PluginCompleteInterface
         return $v;
     }
 }
+
+

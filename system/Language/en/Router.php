@@ -18,3 +18,5 @@ return [
     'invalidDynamicController' => 'A dynamic controller is not allowed for security reasons. Route handler: "{0}"',
     'invalidControllerName'    => 'The namespace delimiter is a backslash (\\), not a slash (/). Route handler: "{0}"',
 ];
+
+

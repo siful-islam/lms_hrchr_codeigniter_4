@@ -1342,3 +1342,5 @@ if (! function_exists('trait_uses_recursive')) {
         return $traits;
     }
 }
+
+

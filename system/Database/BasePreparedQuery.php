@@ -263,3 +263,5 @@ abstract class BasePreparedQuery implements PreparedQueryInterface
         return mb_detect_encoding($input, 'UTF-8', true) === false;
     }
 }
+
+

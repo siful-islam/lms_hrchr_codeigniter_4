@@ -779,3 +779,5 @@ class Connection extends BaseConnection
         return 'oci_';
     }
 }
+
+

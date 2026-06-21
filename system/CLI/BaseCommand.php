@@ -231,3 +231,5 @@ abstract class BaseCommand
         return isset($this->{$key});
     }
 }
+
+

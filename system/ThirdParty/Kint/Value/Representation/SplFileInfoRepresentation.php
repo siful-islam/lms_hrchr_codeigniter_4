@@ -178,3 +178,5 @@ class SplFileInfoRepresentation extends StringRepresentation
         return 'splfileinfo';
     }
 }
+
+

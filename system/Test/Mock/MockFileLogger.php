@@ -37,3 +37,5 @@ class MockFileLogger extends FileHandler
         $this->destination = $this->path . 'log-' . date('Y-m-d') . '.' . $this->fileExtension;
     }
 }
+
+

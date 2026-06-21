@@ -72,3 +72,5 @@ class SecureHeaders implements FilterInterface
         return $response;
     }
 }
+
+
